@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*Fundo*/
+body{
+    width: 100%;
+    height: 100vh;
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(#d04038, #a92f28, #883632);
+}
+
+a{
+    color:#242424;
+    text-decoration: none;
+
+}
+
+/*Caixinha do formulário*/
+#form{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #fff;
+    border-radius: 10px;
+    padding: 60px;
+    width: min-content;
+    align-items: center;
+    color: #dd535a;
+}
+
+/*Título*/
+.title {
+    font-size: 1.8em;
+    text-align: center;
+    margin-bottom: 10%;
+}
+
+/*Questão*/
+.question {
+    font-size: 20px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+/*Botões*/
+#btn1 button {
+   font-family: 'Poppins', sans-serif;
+   background: #fb9e99;
+   color: #242424;
+   width: 400px;
+   height: 55px;
+   border: none;
+   font-size: 17px;
+   border-radius: 22px;
+   cursor: pointer;
+   outline: none;
+}
+
+#btn2 button {
+    color: #242424;
+    font-family: 'Poppins', sans-serif;
+    background: #fb9e99;
+    height: 55px;
+    width: 400px;
+    border: none;
+    font-size: 17px;
+    border-radius: 22px;
+    cursor: pointer;
+    outline: none;
+}
+
+#btn3 button {
+    font-family: 'Poppins', sans-serif;
+    color: #242424;
+    background: #fb9e99;
+    height: 55px;
+    width: 400px;
+    border: none;
+    font-size: 17px;
+    border-radius: 22px;
+    cursor: pointer;
+    outline: none;
+ }
+
+
+#btn1 button:hover {
+    background: #dad8d8;
+}
+
+#btn2 button:hover {
+    background: #dad8d8;
+}
+
+#btn3 button:hover {
+    background: #dad8d8;
+}
+
+.pont {
+    color: green;
+}
+
+.modal-none {
+    display: none;
+}
+
+.modal-appearence{
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.2);
+    inset: 0;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    
+}
+.modal-appearence .modal-content {
+    width: 300px;
+    height: max-content;
+    background-color: #fff;
+    border-radius: 16px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    padding: 8px;
+}
+.modal-appearence .restart-button {
+    width: 100%;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background-color: #a92f28;
+    color: #fff;
+    border-radius: 8px;
+}

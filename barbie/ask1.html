@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../barbie/style/style.css">
+
+    <title>Quiz Barbie</title>
+</head>
+<body>
+    <div id="form">
+        <!--Título do quiz-->
+        <h2 class="title" id="game-title" data-value="barbie">Quiz Barbie</h2>
+  
+        <!--Questão-->
+        <h3 class="question" id="title">
+          Qual o nome do filme com a maior bilheria mundial e quanto ele
+          arrecadou?
+        </h3>
+        <br />
+  
+        <!--Alternativas-->
+        <div id="btn1">
+          <button class="btn" id="1" value="a">
+            <span class="a"> Avatar, arrecadou US$ 2,847 bilhões</span>
+          </button>
+          <br />
+          <br />
+        </div>
+  
+        <div id="btn2">
+          <button class="btn" id="2" value="b">
+            <span class="b">
+              Vingadores Ultimato, arrecadou US$ 5,987 bilhões</span
+            >
+          </button>
+          <br />
+          <br />
+        </div>
+  
+        <div id="btn3">
+          <button class="btn" id="3" value="c">
+            <span class="c"> Avatar 2, arrecadou US$ 2,847 bilhões</span>
+          </button>
+        </div>
+  
+        <br />
+        <!-- <h4 class="point" id="point"></h4> -->
+      </div>
+        <div class="modal-none" id="modal">
+            <div class="modal-content">
+                <h3>PARABÉNS!!!! Sua pontuação foi: </h3>
+                <h1 class="point" id="point"></h1>
+                <a class="restart-button" href="../index.html" >Finalizar</a>
+            </div>
+        </div>
+    
+    <script src="../questions.js"></script>
+</body>
+</html>
